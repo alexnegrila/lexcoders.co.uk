@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alexandrian (Alex) Negrila · Technical Lead &amp; Architect · Lex Coders Ltd</title>
+  <meta name="description" content="Alexandrian (Alex) Negrila, technical lead and architect building with generative AI: LLM agents, spec-first AI-assisted delivery, over twenty years of Java. Contracts through Lex Coders Ltd, outside IR35, remote, UK.">
+  <meta name="author" content="Alexandrian (Alex) Negrila">
+  <meta name="color-scheme" content="light dark">
+  <link rel="canonical" href="https://lexcoders.co.uk/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f5f8b'/%3E%3Ctext x='16' y='22' font-family='system-ui,sans-serif' font-size='16' font-weight='700' fill='%23fff' text-anchor='middle'%3ELC%3C/text%3E%3C/svg%3E">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Alexandrian (Alex) Negrila · Lex Coders Ltd">
+  <meta property="og:description" content="Technical lead and architect building with generative AI. Give your AI agent a contract, not a wish.">
+  <meta property="og:url" content="https://lexcoders.co.uk/">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://lexcoders.co.uk/#alex",
+        "name": "Alexandrian Negrila",
+        "alternateName": "Alex Negrila",
+        "jobTitle": "Technical Lead & Architect",
+        "worksFor": { "@id": "https://lexcoders.co.uk/#company" },
+        "knowsAbout": ["Generative AI", "LLM agents", "Spec-driven development", "OpenAPI", "Java", "Spring Boot", "Software architecture"],
+        "sameAs": ["https://www.linkedin.com/in/alexandrian-negrila-71a49213/", "https://github.com/alexnegrila"],
+        "url": "https://lexcoders.co.uk/"
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://lexcoders.co.uk/#company",
+        "name": "Lex Coders Ltd",
+        "legalName": "LEX CODERS LTD",
+        "identifier": { "@type": "PropertyValue", "propertyID": "Companies House company number", "value": "11883323" },
+        "address": { "@type": "PostalAddress", "streetAddress": "25 Webster Road", "addressLocality": "London", "postalCode": "SE16 4DQ", "addressCountry": "GB" },
+        "founder": { "@id": "https://lexcoders.co.uk/#alex" },
+        "url": "https://lexcoders.co.uk/"
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #fbfaf7;
+      --surface: #ffffff;
+      --text: #1d1f23;
+      --muted: #5a606a;
+      --line: #e2dfd7;
+      --accent: #1f5f8b;
+      --accent-text: #ffffff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111317;
+        --surface: #171a1f;
+        --text: #e9eaec;
+        --muted: #a3a9b3;
+        --line: #2b2f36;
+        --accent: #82b8df;
+        --accent-text: #0d1116;
+      }
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    .wrap { max-width: 46rem; margin: 0 auto; padding: 0 1.25rem; }
+    a { color: var(--accent); text-underline-offset: 0.15em; }
+    a:focus-visible, .button:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+    .skip { position: absolute; left: -999px; top: 0.5rem; background: var(--surface); padding: 0.5rem 0.75rem; }
+    .skip:focus { left: 0.5rem; }
+    .hero { padding: 4.5rem 1.25rem 2.5rem; }
+    .eyebrow { margin: 0 0 0.5rem; color: var(--muted); font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; }
+    h1 { margin: 0; font-size: clamp(2rem, 6vw, 2.75rem); line-height: 1.15; letter-spacing: -0.01em; }
+    .headline { margin: 0.6rem 0 0.2rem; font-size: 1.25rem; font-weight: 600; }
+    .tags { margin: 0; color: var(--muted); }
+    .lede { margin: 1.5rem 0 0; font-size: 1.1rem; max-width: 38rem; }
+    .actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.75rem; }
+    .button {
+      display: inline-block; padding: 0.6rem 1.05rem; border: 1px solid var(--line); border-radius: 0.55rem;
+      background: var(--surface); color: var(--text); text-decoration: none; font-weight: 600;
+    }
+    .button.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-text); }
+    main section { padding: 2rem 0; border-top: 1px solid var(--line); }
+    h2 { margin: 0 0 1rem; font-size: 1.35rem; }
+    h3 { margin: 0; font-size: 1.1rem; }
+    .points { margin: 0; padding-left: 1.2rem; }
+    .points li { margin: 0.5rem 0; }
+    .case { background: var(--surface); border: 1px solid var(--line); border-radius: 0.75rem; padding: 1.25rem 1.35rem; margin: 0 0 1rem; }
+    .case p { margin: 0.6rem 0 0; }
+    .meta { color: var(--muted); font-size: 0.9rem; }
+    .legal { padding: 2rem 1.25rem 3rem; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.85rem; }
+    .legal p { margin: 0.35rem 0; }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="wrap hero">
+    <p class="eyebrow">Lex Coders Ltd</p>
+    <h1>Alexandrian (Alex) Negrila</h1>
+    <p class="headline">Technical Lead &amp; Architect building with Generative AI</p>
+    <p class="tags">LLM agents · AI-assisted delivery · 20 years of Java &amp; eCommerce</p>
+    <p class="lede">I help engineering teams ship with AI coding agents without losing control of the design. Write the contract first, let the agent build against it, and make the build fail when the code drifts.</p>
+    <nav class="actions" aria-label="Contact">
+      <a class="button primary" href="mailto:alex@lexcoders.co.uk">Email me</a>
+      <a class="button" href="https://www.linkedin.com/in/alexandrian-negrila-71a49213/">LinkedIn</a>
+      <a class="button" href="https://github.com/alexnegrila">GitHub</a>
+    </nav>
+  </header>
+
+  <main id="main" class="wrap">
+    <section aria-labelledby="how">
+      <h2 id="how">How I work</h2>
+      <ul class="points">
+        <li><strong>Spec first.</strong> OpenAPI contracts and architecture decision records come before code. Agents implement against them, not against a prompt.</li>
+        <li><strong>Guardrails by structure.</strong> An agent skill for each delivery step, read-only reviewers, test-first implementers, and gates every change has to pass.</li>
+        <li><strong>Measured, not assumed.</strong> Review accuracy measured every week, alongside cycle time and fix times, so the team knows whether the AI is helping.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="work">
+      <h2 id="work">Selected work</h2>
+
+      <article class="case">
+        <h3>Give the agent a contract, not a wish</h3>
+        <p class="meta">Multi-tenant logistics platform, 2025–26 · airline microservices, 2023</p>
+        <p>Built a spec-driven workflow with an agent skill for each step of delivery, gated by Definition of Ready and Definition of Done. Made the API specifications enforceable on a brownfield platform: contract tests check every existing integration test against its OpenAPI spec, with no new test code, so drift fails the build instead of reaching production. Earlier, set up an OpenAPI-first template service that the whole team adopted.</p>
+        <p><a href="https://github.com/alexnegrila/spec-first-agent-demo">A small public version: spec-first-agent-demo</a></p>
+      </article>
+
+      <article class="case">
+        <h3>AI code review the team trusts</h3>
+        <p class="meta">Platform team, 2025–26</p>
+        <p>Built the team's AI review skill from its own pull-request comments, commit history and terminology, and tuned it every week on how its comments landed. The share of its comments that applied to the code rose from 40% with the default model to 80%, and review throughput rose by 30%. One rule came out of measuring it: a blocking comment names the run that proves it.</p>
+      </article>
+
+      <article class="case">
+        <h3>Agents for the repeatable work</h3>
+        <p class="meta">Platform team, 2025–26</p>
+        <p>Built and launched more than 120 agent skills for releases, CVE triage, pull-request review, ticket transitions and runbooks, distributed as a versioned plugin marketplace pinned to commit SHAs. An agentic CVE process gathers scanner findings and raises the fix as a pull request, behind regression tests and a human review. CVE resolution time fell by 70%.</p>
+      </article>
+    </section>
+
+    <section aria-labelledby="background">
+      <h2 id="background">Background</h2>
+      <p>Over twenty years of Java, since 2005: Spring Boot microservices, brownfield modernisation and high-volume eCommerce. I have led squads of three to eleven engineers and coached them through code review and pairing. At home anywhere from a C4 diagram down to a heap limit, on GCP and Kubernetes, AWS and Terraform.</p>
+    </section>
+
+    <section aria-labelledby="engage">
+      <h2 id="engage">Work with me</h2>
+      <p>Contract roles as technical lead or architect on AI-assisted delivery, through my company, Lex Coders Ltd. Outside IR35, remote, UK-based.</p>
+      <p><a class="button primary" href="mailto:alex@lexcoders.co.uk">alex@lexcoders.co.uk</a></p>
+    </section>
+  </main>
+
+  <footer class="wrap legal">
+    <p>Lex Coders Ltd is registered in England and Wales, company number 11883323. Registered office: 25 Webster Road, London, England, SE16 4DQ.</p>
+    <p>This page sets no cookies and does no tracking. © 2026 Lex Coders Ltd.</p>
+  </footer>
+</body>
+</html>
